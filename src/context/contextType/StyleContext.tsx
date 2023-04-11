@@ -35,7 +35,7 @@ export const StyleContextWrapper: FC<PropsWithChildren<{}>> = ({ children }): JS
   }, []);
 
   return (
-    <div ref={observe} className={`flex min-h-screen flex-col ${currentBreakpoint}`}>
+    <div ref={observe} className={`flex min-h-screen flex-col justify-between ${currentBreakpoint}`}>
       <StyleContext.Provider value={value}>{children}</StyleContext.Provider>
     </div>
   );

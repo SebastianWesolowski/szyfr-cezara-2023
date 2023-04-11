@@ -6,15 +6,7 @@ const Homepage = (): JSX.Element => {
     <>
       <BasicLayout>
         <Seo />
-        <main>
-          {/* <Hero />
-        <PrimaryFeatures />
-        <SecondaryFeatures />
-        <CallToAction />
-        <Testimonials />
-        <Pricing />
-        <Faqs /> */}
-        </main>
+        <main></main>
       </BasicLayout>
     </>
   );
