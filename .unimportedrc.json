@@ -11,6 +11,7 @@
   ],
   "ignoreUnresolved": [],
   "ignoreUnused": [
+    "@headlessui/react",
     "@heroicons/react",
     "@tailwindcss/forms",
     "copyfiles",
