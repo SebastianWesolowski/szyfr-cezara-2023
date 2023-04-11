@@ -1,0 +1,24 @@
+{
+  "ignoreUnimported": [
+    "src/assets/svg/Logo.tsx",
+    "src/components/atoms/Button/Button/Button.stories.tsx",
+    "src/components/index.ts",
+    "src/components/templates/Example/Example.tsx",
+    "src/components/templates/Example/index.ts",
+    "src/components/templates/Example/types.ts",
+    "src/components/templates/index.ts",
+    "src/configs/type.ts"
+  ],
+  "ignoreUnresolved": [],
+  "ignoreUnused": [
+    "@heroicons/react",
+    "@tailwindcss/forms",
+    "copyfiles",
+    "next",
+    "next-sitemap",
+    "postcss-nesting",
+    "react",
+    "react-dom",
+    "tailwind-merge"
+  ]
+}

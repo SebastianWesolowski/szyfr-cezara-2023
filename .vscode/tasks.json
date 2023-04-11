@@ -1,0 +1,21 @@
+{
+  "tasks": [
+    {
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "label": "Project wide type checking with TypeScript",
+      "presentation": {
+        "clear": true,
+        "reveal": "never"
+      },
+      "problemMatcher": ["$tsc"],
+      "script": "build-types",
+      "type": "npm"
+    }
+  ],
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0"
+}
