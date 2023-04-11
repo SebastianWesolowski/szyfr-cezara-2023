@@ -6,7 +6,9 @@ const Homepage = (): JSX.Element => {
     <>
       <BasicLayout>
         <Seo />
-        <main></main>
+        <main>
+          <h1>Szyfr</h1>
+        </main>
       </BasicLayout>
     </>
   );
